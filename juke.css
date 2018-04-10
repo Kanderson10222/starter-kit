@@ -1,0 +1,63 @@
+body {
+  background-color: #244269;
+  border-style: solid;
+  padding-bottom: 3%;
+}
+
+p {
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+}
+
+.buttonSection {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.buttonSection img {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+
+.input {
+  color: #4CAF50;
+  /* Green */
+  font-family: monospace;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.fSong {
+  color: #121312;
+  background-color: #28c1d2;
+  font-size: 15px;
+}
+
+.sSong {
+  color: #121312;
+  background-color: #28c1d2;
+  font-size: 15px;
+}
+
+.tSong {
+  color: #121312;
+  background-color: #28c1d2;
+  font-size: 15px;
+  ;
+}
+
+/*
+.tracks {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.track li {
+  list-style: none;
+  text-align: center;
+} */

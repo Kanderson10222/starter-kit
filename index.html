@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="juke.css">
+  <meta charset="utf-8">
+  <title>myJukebox</title>
+</head>
+
+<body>
+
+
+  <p>ListenDown</p>
+
+  <div class="buttonSection">
+    <img src="images/Play.png" alt="Play Button" onclick="player.play()">
+    <img src="images/Pause.png" alt="Pause Button" onclick="player.pause()">
+    <img src="images/Stop.png" alt="Stop Button" onclick="player.stop()">
+    <img src="images/Pre.png" alt="Pre Button" onclick="player.pre()">
+    <img src="images/Next.png" alt="Next Button" onclick="player.next()">
+  </div>
+  <div class="input">
+    <input class="fSong" type="button" value="PopCiroc- Ten Toes" onclick="player.playsong(0)">
+    <input class="sSong" type="button" value="PopCiroc - Go Bang" onclick="player.playsong(1)">
+    <input class="tSong" type="button" value="PopCiroc - Believe" onclick="player.playsong(2)">
+  </div>
+  <!-- <div class="tracks">
+    <ul>
+      <li onclick="player.playsong(0)">PopCiroc - Ten Toes</li>
+      <li onclick="player.playsong(1)">PopCiroc - Go Bang</li>
+      <li onclick="player.playsong(2)">PopCiroc - Believe</li>
+    </ul>
+  </div> -->
+  <audio id="myJukebox" src="music/song1.mp3">
+</audio>
+  <script type="text/javascript" src="juke.js">
+  </script>
+  <span class='loading loading-spinner-tiny inline-block'></span>
+  <span class='loading loading-spinner-small inline-block'></span>
+  <span class='loading loading-spinner-medium inline-block'></span>
+  <span class='loading loading-spinner-large inline-block'></span>
+</body>
+
+</html>
