@@ -2,7 +2,7 @@
 
 ----
 # ListenDown
-> This is a audio player application.
+> This is an audio player application.
 ----
 # Styled
 > This was styled with basic CSS
